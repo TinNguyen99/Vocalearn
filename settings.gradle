@@ -1,0 +1,2 @@
+rootProject.name='VocTN'
+include ':app'

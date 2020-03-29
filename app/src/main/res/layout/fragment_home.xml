@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="Select a Subject"
+        android:textSize="25dp"
+        android:textColor="#015719"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+
+    <ScrollView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="585dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn1"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btngreen"
+                android:text="1. Contracts"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#015719"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btnorange"
+                android:text="2. Marketing"
+                android:gravity="center"
+                android:textColor="#D13708"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btngreen"
+                android:text="3. Warranties"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#015719"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btnorange"
+                android:text="4. Business planning"
+                android:gravity="center"
+                android:textColor="#D13708"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btngreen"
+                android:text="5. Conferences"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#015719"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btnorange"
+                android:text="6. Computers"
+                android:gravity="center"
+                android:textColor="#D13708"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn7"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btngreen"
+                android:text="7. Office Technology"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#015719"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btnorange"
+                android:text="8. Office Procedures"
+                android:gravity="center"
+                android:textColor="#D13708"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btngreen"
+                android:text="9. Electronics"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#015719"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn10"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btnorange"
+                android:text="10. Correspondence"
+                android:gravity="center"
+                android:textColor="#D13708"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn11"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btngreen"
+                android:text="11. Job Advertising and Recruiting"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#015719"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn12"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btnorange"
+                android:text="12. Applying and Interviewing"
+                android:gravity="center"
+                android:textColor="#D13708"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn13"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btngreen"
+                android:text="13. Hiring and Training"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#015719"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn14"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btnorange"
+                android:text="14. Salaries and benefits"
+                android:gravity="center"
+                android:textColor="#D13708"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn15"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btngreen"
+                android:text="15. Promotions, Pensions and Awards"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#015719"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn16"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btnorange"
+                android:text="16. Shopping"
+                android:gravity="center"
+                android:textColor="#D13708"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn17"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btngreen"
+                android:text="17. Ordering Supplies"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#015719"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn18"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btnorange"
+                android:text="18. Shipping"
+                android:gravity="center"
+                android:textColor="#D13708"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn19"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btngreen"
+                android:text="19. Invoices"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#015719"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn20"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btnorange"
+                android:text="20. Inventory"
+                android:gravity="center"
+                android:textColor="#D13708"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn21"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btngreen"
+                android:text="21. Banking"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#015719"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn22"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btnorange"
+                android:text="22. Accounting"
+                android:gravity="center"
+                android:textColor="#D13708"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn23"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btngreen"
+                android:text="23. Investments"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#015719"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn24"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btnorange"
+                android:text="24. Taxes"
+                android:gravity="center"
+                android:textColor="#D13708"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn25"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btngreen"
+                android:text="25. Property and department"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#015719"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn26"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btnorange"
+                android:text="26. Board Meetings and committees"
+                android:gravity="center"
+                android:textColor="#D13708"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn27"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btngreen"
+                android:text="27. Quality control"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#015719"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn28"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btnorange"
+                android:text="28. Product Development"
+                android:gravity="center"
+                android:textColor="#D13708"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn29"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btngreen"
+                android:text="29. Renting and Leasing"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#015719"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn30"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btnorange"
+                android:text="30. Selecting a Restaurant"
+                android:gravity="center"
+                android:textColor="#D13708"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn31"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btngreen"
+                android:text="31. Eating out"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#015719"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn32"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btnorange"
+                android:text="32. Ordering Lunch"
+                android:gravity="center"
+                android:textColor="#D13708"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn33"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btngreen"
+                android:text="33. Cooking as a career"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#015719"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn34"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btnorange"
+                android:text="34. Events"
+                android:gravity="center"
+                android:textColor="#D13708"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn35"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btngreen"
+                android:text="35. General Travel"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#015719"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn36"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btnorange"
+                android:text="36. Airlines"
+                android:gravity="center"
+                android:textColor="#D13708"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn37"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btngreen"
+                android:text="37. Trains"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#015719"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn38"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btnorange"
+                android:text="38. Hotels"
+                android:gravity="center"
+                android:textColor="#D13708"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn39"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btngreen"
+                android:text="39. Car Rentals"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#015719"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn40"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btnorange"
+                android:text="40. Movies"
+                android:gravity="center"
+                android:textColor="#D13708"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn41"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btngreen"
+                android:text="41. Theater"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#015719"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn42"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btnorange"
+                android:text="42. Music"
+                android:gravity="center"
+                android:textColor="#D13708"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn43"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btngreen"
+                android:text="43. Museums"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#015719"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn44"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btnorange"
+                android:text="44. Media"
+                android:gravity="center"
+                android:textColor="#D13708"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn45"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btngreen"
+                android:text="45. Doctor’s Office"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#015719"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn46"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btnorange"
+                android:text="46. Dentist’s office"
+                android:gravity="center"
+                android:textColor="#D13708"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn47"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btngreen"
+                android:text="47. Health Insurance"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#015719"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn48"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btnorange"
+                android:text="48. Hospitals"
+                android:gravity="center"
+                android:textColor="#D13708"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn49"
+                android:onClick="SelectSubject"
+                android:layout_marginTop="17dp"
+                android:layout_width="330dp"
+                android:background="@drawable/btngreen"
+                android:text="49. Pharmacy"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#015719"
+                android:textSize="17dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
